@@ -1,0 +1,21 @@
+.search__area {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.search__area > form > input {
+  padding: 10px;
+  outline: none;
+  width: 400px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #333;
+  font-size: 16px;
+}
+
+.search__area > form > button {
+  display: none;
+}
