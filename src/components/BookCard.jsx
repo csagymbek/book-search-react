@@ -12,8 +12,13 @@ export default function BookCard({
       <div className="desc">
         <h4>{title}</h4>
         <h5>{subtitle}</h5>
-        <h6>{author}</h6>
-        <p>{publishedDate}</p>
+        <h6>Author: {author}</h6>
+        <p>
+          Published Date:{" "}
+          {publishedDate === "0000"
+            ? "Not Available"
+            : publishedDate.substring(0, 4)}
+        </p>
       </div>
     </div>
   );
